@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'otroAngular';
+
+  resultado:number=0;
+
+  dividir(numero1:number,numero2:number):number{
+    return numero1 / numero2;
+  }
+
+  multiplicar(numero1:number,numero2:number):number{
+    return numero1 * numero2;
+  }
+
+  restarDos(): void {
+    this.resultado = this.resultado - 2;
+  }
 }
