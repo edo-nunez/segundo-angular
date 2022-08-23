@@ -21,4 +21,13 @@ export class AppComponent {
   restarDos(): void {
     this.resultado = this.resultado - 2;
   }
+
+  restarElevarCuadrado(): void {
+    this.resultado = (this.resultado - 2) ** 2;
+  }
+  
+  raizCuadrada(): void {
+    this.resultado = this.resultado ** 0.5;
+  }
+
 }

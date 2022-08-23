@@ -1,8 +1,14 @@
-<h1>Hola</h1><br>
-<h2>Voy con otra prueba</h2><br>
+        <h1>Hola</h1><br>
+        <h2>Voy con otra prueba</h2><br>
+        
+        La división entre 18 y 3 es {{dividir(18,3)}}<br>
+        La multiplicación entre 8 y 6 es {{multiplicar(8,6)}}<br>
+        
+        <button (click)="restarDos()">Restar dos</button> <br>
+        <h2>{{resultado}}</h2><br>
 
-La división entre 18 y 3 es {{dividir(18,3)}}<br>
-La multiplicación entre 8 y 6 es {{multiplicar(8,6)}}<br>
+        <button (click)="restarElevarCuadrado()">Restar dos al resultado y elevar al cuadrado</button> <br>
+        <h2>{{resultado}}</h2><br>
 
-<button (click)="restarDos()">Restar Dos</button> <br>
-<h2>{{resultado}}</h2><br>
+        <button (click)=" raizCuadrada()">Obtener raíz cuadrada del resultado anterior</button> <br>
+        <h2>{{resultado}}</h2><br>
